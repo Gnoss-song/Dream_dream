@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Event"
+        android:layout_width="390dp"
+        android:layout_height="151dp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="45dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/event_btn"
+        android:layout_width="105dp"
+        android:layout_height="72dp"
+        android:text="이벤트"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="105dp"
+        android:layout_height="72dp"
+        android:text="홈"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/center_btn"
+        android:layout_width="105dp"
+        android:layout_height="72dp"
+        android:text="문의사항"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/Lecture_btn"
+        android:layout_width="105dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="강좌"
+        app:layout_constraintStart_toEndOf="@+id/News_btn"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/News_btn"
+        android:layout_width="105dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="공지사항"
+        app:layout_constraintEnd_toStartOf="@+id/center_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/event_btn"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/community_btn"
+        android:layout_width="105dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="커뮤니티"
+        app:layout_constraintEnd_toStartOf="@+id/center_btn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/event_btn"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <ScrollView
+        android:layout_width="390dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="196dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="99dp"
+        android:layout_height="28dp"
+        android:text="다크모드"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
