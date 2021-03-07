@@ -1,0 +1,68 @@
+네이티브앱에 웹뷰를 껴넣어서 보여주는 방식.
+
+spring기반 백엔드
+안드로이드 네이티브만 잘하자.
+코틀린
+EMM = Appendix 
+기업들의 자체 마켓플레이스(보안이 필요한경우)
+
+
+
+Class 객체지향 에 대한 개념.
+람다함수.컴파일타입과 타입.
+SI
+톰캣
+node.js
+spring기반.
+
+play.kotlinlang.org에서 튜토리얼
+Boolean
+
+
+insoo.pyo@gmail.com
+표인수.
+
+file - export - zipfile로 해서 매일로 보내기.
+
+
+when반드시 숙지하기. if 숙지하기.
+
+'in', 'out' 
+
+when is
+
+for문 .
+
+filter.
+
+해쉬 map. : key:  value.
+
+별짓기 해보기. 
+
+라벨.
+
+immutable을 더 많이 쓴다.
+
+
+
+이벤트, 버튼 만들기.
+
+
+
+기본함수 클래스로 만들어서 실습한번 해보기.
+
+58번 슬라이드 암기.
+
+클래스 안의 클래스 : 이너클래스
+ 변수 : 인스턴스변수
+
+i/o작업.	
+
+
+
+왠만하면 전부다 직접 손으로 써보기.
+
+getter setter개념.
+
+코틀린의 확장함수 예시 구글링해서 구경해보기.
+Extension Function 을 공부. 별 3개.
