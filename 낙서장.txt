@@ -8,10 +8,8 @@ EMM = Appendix
 
 
 
-Class 객체지향 에 대한 개념.
 람다함수.컴파일타입과 타입.
-SI
-톰캣
+
 node.js
 spring기반.
 
@@ -25,24 +23,14 @@ insoo.pyo@gmail.com
 file - export - zipfile로 해서 매일로 보내기.
 
 
-when반드시 숙지하기. if 숙지하기.
 
 'in', 'out' 
 
-when is
-
-for문 .
-
 filter.
-
-해쉬 map. : key:  value.
 
 별짓기 해보기. 
 
 라벨.
-
-immutable을 더 많이 쓴다.
-
 
 
 이벤트, 버튼 만들기.
@@ -57,7 +45,6 @@ immutable을 더 많이 쓴다.
  변수 : 인스턴스변수
 
 i/o작업.	
-
 
 
 왠만하면 전부다 직접 손으로 써보기.
