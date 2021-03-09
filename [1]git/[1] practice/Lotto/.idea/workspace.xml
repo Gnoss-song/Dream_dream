@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17f7721b-76d1-48a9-acbf-cf2b1cf44abd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../1주차 일기/마포구 기획안.hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SK-T-Academy/TAcademy_Kotlin_Beginning.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../../SK-T-Academy/TAcademy_Kotlin_Beginning.ppt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lotto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lotto/LottoKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lotto/META-INF/Lotto.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lotto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/HelloWorldktlin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/out/production/HelloWorldktlin/kr/co/mapo/Cheating.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/out/production/HelloWorldktlin/kr/co/mapo/framework.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/src/kr/co/mapo/Cheating.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/src/kr/co/mapo/Helloworld.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/src/kr/co/mapo/Lotto.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/HelloWorldktlin/src/kr/co/mapo/framework.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/kjh/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/kjh/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/kjh/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/kjh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/kjh/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/kjh/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/kjh/kjh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/kjh/out/production/kjh/lkj.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/kjh/src/lkj.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/ljk/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/ljk/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/ljk/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/ljk/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/ljk/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/ljk/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/ljk/ljk.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/ljk/out/production/ljk/KljKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/ljk/out/production/ljk/META-INF/ljk.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/ljk/src/klj.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/6.6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/6.6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlinexample/untitled/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../낙서장.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../낙서장.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../해야할일.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../해야할일.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1pS5ib9rClpau2LcteSgqMtFPXU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LottoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Lotto" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="LottoKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LottoKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17f7721b-76d1-48a9-acbf-cf2b1cf44abd" name="Default Changelist" comment="" />
+      <created>1615163778264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615163778264</updated>
+    </task>
+    <servers />
+  </component>
+</project>

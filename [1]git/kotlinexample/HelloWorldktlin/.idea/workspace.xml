@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9d4b725-6318-4b91-8ec5-138b93500481" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../1주차 일기/마포구 기획안.hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldktlin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldktlin/kr/co/mapo/Cheating.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorldktlin/kr/co/mapo/framework.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kr/co/mapo/Cheating.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kr/co/mapo/Helloworld.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kr/co/mapo/Lotto.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kr/co/mapo/framework.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kjh/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kjh/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kjh/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kjh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kjh/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kjh/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kjh/kjh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kjh/out/production/kjh/lkj.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kjh/src/lkj.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ljk/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ljk/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ljk/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ljk/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ljk/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ljk/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ljk/ljk.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ljk/out/production/ljk/KljKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ljk/out/production/ljk/META-INF/ljk.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ljk/src/klj.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/6.6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/6.6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/settings.gradle.kts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1pS6fY5FrUkgy7ksxEzzHcEnCxA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Practice3" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9d4b725-6318-4b91-8ec5-138b93500481" name="Default Changelist" comment="" />
+      <created>1615164247174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615164247174</updated>
+    </task>
+    <servers />
+  </component>
+</project>
