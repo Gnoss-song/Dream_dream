@@ -1,4 +1,4 @@
-import java.util.*
+import java.utl.*i
 
 fun main(args:Array<String>) {
     val numberinput = readLine()!!.toInt()
