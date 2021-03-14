@@ -43,6 +43,8 @@ fun main() {
     println(manager.average(list))
 }
 
+// delegate를 이용하여 department가 바뀌면 연봉이 바뀌는 로직 . Wage계산할때 , delegate = department를 사용. 각 department 를 sub class
+// 로 만들고 그 서브클래스 안에 wage계산하는 함수를 넣는다. 그리고 그 함수를 delegate로 꺼내서 EM에 넣어준다?
 class EmployeeManager {
     fun sum(employees: List<Employee>): Double {
         var result = 0.0

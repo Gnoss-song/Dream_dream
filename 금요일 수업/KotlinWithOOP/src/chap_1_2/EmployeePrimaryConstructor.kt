@@ -48,4 +48,3 @@ fun main(args: Array<String>){
     emp.goToLeaveWork(2)
     println("퇴근 시간 : ${emp.offWorkTime}")
 }
-fun main(args: Array<String>
