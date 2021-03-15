@@ -30,25 +30,17 @@ Extension Function 을 공부. 별 3개.
 낙서장.
 
 노션 정리할 것.
-81페이지. 이너클래스.
-
-88페이지 Access Modifier 노션
-
-89페이지 모듈 정리 앤트 -> 메이븐 -> 그래들 모듈.(가볍게,그래들중심으로)
-
-91~93페이지 실습
-
 95페이지 null 수신객체 람다. 찾아보기. with none apply .
 
 96페이지 lateinit . 알아두세요. 
 
 데이터바인딩 B2B, 뷰바인딩 내가만든 레이아웃과 레이아웃을 찾아가는 바인딩클래스를 자동생성
 
-
 97페이지 by lazy
 
 reflection, intent 알아오기.
 memory에있는 속성을 읽는 기능 reflection --> 코틀린에서는 KProperty.
+
 98~100페이지 delegate 위임. 어려움. 패스.
 
 106페이지 카피코딩 필수.

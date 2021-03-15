@@ -26,21 +26,23 @@ class Employee {
 class Wage private constructor(val amount: Double) {
     companion object {
         fun calculateBySalary(salary: Double) = Wage(salary / 12)
-        fun calculateByHour(hour: Double) = Wage(hour * 160)
+        fun calculateByHour(hour: Double) = Wage(hour * 25000)
     }
 }
 
 
 fun main() {
-    var emp1 = Employee.create(Wage.calculateBySalary(12.0), Department.Develop)
-    var emp2 = Employee.create(Wage.calculateBySalary(8.0), Department.Biz)
-    var emp3 = Employee.create(Wage.calculateBySalary(100.0), Department.Develop)
+    var emp1 = Employee.create(Wage.calculateBySalary(120000000.0), Department.Develop)
+    var emp2 = Employee.create(Wage.calculateBySalary(120000000.0), Department.Biz)
+    var emp3 = Employee.create(Wage.calculateBySalary(120000000.0), Department.Develop)
+    var emp4 = Employee.create(Wage.calculateByHour(160.0),Department.Sales)
 
     var list = listOf(emp1, emp2, emp3)
     var manager = EmployeeManager()
 
     println(manager.sum(list))
     println(manager.average(list))
+    println(emp4)
 }
 
 // delegate를 이용하여 department가 바뀌면 연봉이 바뀌는 로직 . Wage계산할때 , delegate = department를 사용. 각 department 를 sub class

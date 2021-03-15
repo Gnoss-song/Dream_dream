@@ -1,4 +1,3 @@
-import jdk.jshell.Snippet
 import java.util.*
 
 
@@ -9,66 +8,61 @@ enum class Department {
     Biz // 사무직
 }
 enum class EmployeeType{
-    Parttime, // 파트타임
-    Regular, //정규직
-    Sales //영업직
+    parttime, // 파트타임
+    regular, //정규직
+    sales //영업직
 }
+
 
 open class Employee {
     var uuid: UUID // UUID
     var department: Department
-    var wage: Wage
+    var wage: Double
     var employeetype : EmployeeType
 
-    companion object {
-        fun create(department: Department, wage: Wage) = Employee(UUID.randomUUID(), department,wage,)
-    }
 
-    constructor(uuid: UUID, department: Department, wage: Wage, employeetype: EmployeeType) {
+    constructor(uuid: UUID, department: Department, wage: Double, employeetype: EmployeeType) {
         this.uuid = uuid
         this.department = department
         this.wage = wage
         this.employeetype = employeetype
     }
-}
-//임금 계산 식//
-class Wage private constructor(val amount: Double) {
-    companion object {
-        fun calculateBySalary(salary: Double) = Wage(salary / 12)
-        fun calculateByHour(hour: Double) = Wage(hour * 160)
-        fun calculateBySales(salary : Double) = Wage(salary + 0.05*performance)
-    }
+
 }
 // 정규, 파트타임, 영업직 서브 클래스//
-class Regular(uuid: UUID,department: Department) : Employee(uuid,department,wage = 1200000000.0, EmployeeType.Regular){
+
+class Regular(uuid: UUID,department: Department) : Employee(uuid,department, wage = 1200000000.0, EmployeeType.regular){
+    fun calculateBySalary(salary: Double) = (salary / 12)
 }
-class PartTime(uuid: UUID,department: Department) : Employee(uuid,department,1200000000000.0, EmployeeType.Parttime){
+class PartTime(uuid: UUID,department: Department) : Employee(uuid,department,0.0, EmployeeType.parttime){
+    fun calculateByHour(hour: Double) = (hour * 160)
 }
-class SalesPart(uuid: UUID) : Employee(uuid,Department.Sales,1200000000000.0, EmployeeType.Sales){
+class SalesPart(uuid: UUID) : Employee(uuid,Department.Sales,wage =1200000000000.0, EmployeeType.sales) {
+    val performance = readLine()!!.toDouble()
+    fun pp(){
+        println("영업 실적은 얼마입니까?")
+    }
+    fun calculateBySales(salary : Double) = (salary + 0.05*performance)
 }
 
 fun main() {
-    var emp1 = Employee.create(Wage.calculateBySalary(12.0), Department.Develop)
-    var emp2 = Employee.create(Wage.calculateByHour(8), 120.0)
-    var emp3 = Employee.create(Wage.calculateBySalary(100.0), Department.Develop)
+    var wage1 = Regular(UUID.randomUUID(),Department.Biz)
+    EmployeeManager.partsum(emp1)
+    }
 
-    var list = listOf(emp1, emp2, emp3)
-    var manager = EmployeeManager()
 
-    println(manager.sum(list))
-    println(manager.average(list))
 }
 
 class EmployeeManager {
-    fun sum(employees: List<Employee>): Double {
+    fun partsum(employees: List<Employee>): Double {
         var result = 0.0
         for (i in 0 .. employees.count()-1) {
-            result += employees[i].wage.amount
+            result += employees[i].wage.to
         }
         return result
     }
 
     fun average(employees: List<Employee>): Double {
-        return sum(employees) / employees.count()
+        return partsum(employees) / employees.count()
     }
 }
