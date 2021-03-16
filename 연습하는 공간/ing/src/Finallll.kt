@@ -31,13 +31,13 @@ open class Employee {
 }
 // 정규, 파트타임, 영업직 서브 클래스//
 
-class Regular(uuid: UUID,department: Department) : Employee(uuid,department, wage = 1200000000.0, EmployeeType.regular){
+class Regular(department: Department) : Employee(UUID.randomUUID(),department, wage = 1200000000.0, EmployeeType.regular){
     fun calculateBySalary(salary: Double) = (salary / 12)
 }
-class PartTime(uuid: UUID,department: Department) : Employee(uuid,department,0.0, EmployeeType.parttime){
+class PartTime(department: Department) : Employee(UUID.randomUUID(),department,0.0, EmployeeType.parttime){
     fun calculateByHour(hour: Double) = (hour * 160)
 }
-class SalesPart(uuid: UUID) : Employee(uuid,Department.Sales,wage =1200000000000.0, EmployeeType.sales) {
+class SalesPart() : Employee(UUID.randomUUID(),Department.Sales,wage =1200000000000.0, EmployeeType.sales) {
     val performance = readLine()!!.toDouble()
     fun pp(){
         println("영업 실적은 얼마입니까?")
@@ -46,18 +46,31 @@ class SalesPart(uuid: UUID) : Employee(uuid,Department.Sales,wage =1200000000000
 }
 
 fun main() {
-    var wage1 = Regular(UUID.randomUUID(),Department.Biz)
-    EmployeeManager.partsum(emp1)
+    var regul1 = Regular(Department.Biz)
+    var regu2 = Regular(Department.Biz)
+    var part1 = PartTime(Department.ClientService)
+
+    println("${regu2.uuid}")
+    println("${regu2.department}")
+    println("${part1.employeetype}")
+    println("${regu2.wage}")
     }
 
 
+class PrintEmp{
+    fun printEmp (employee: Array<Employee>): String{
+        println ("사번 : ${employee.uuid}")
+        println ("부서 : ${employee.department}")
+        println ("타입 : ${employee.Employeetype}")
+        println ("임금 : ${employee.wage}")
+    }
 }
 
 class EmployeeManager {
     fun partsum(employees: List<Employee>): Double {
         var result = 0.0
         for (i in 0 .. employees.count()-1) {
-            result += employees[i].wage.to
+            result =+ employees[i].wage
         }
         return result
     }

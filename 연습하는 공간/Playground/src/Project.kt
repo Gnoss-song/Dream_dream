@@ -40,6 +40,9 @@ fun main() {
     var list = listOf(emp1, emp2, emp3)
     var manager = EmployeeManager()
 
+    println ("${emp1.department}")
+    println ("${emp1.wage}")
+    println ("${emp1.uuid}")
     println(manager.sum(list))
     println(manager.average(list))
     println(emp4)
