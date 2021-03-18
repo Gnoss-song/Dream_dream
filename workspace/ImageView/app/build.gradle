@@ -6,12 +6,9 @@ plugins {
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
-    butildFeatures{
-        viewBinding true
-    }
-    viewBinding = true
+
     defaultConfig {
-        applicationId "kr.co.softcampus.textinputlayout"
+        applicationId "kr.co.softcampus.imageview"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1

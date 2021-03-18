@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63196067-dfcf-4717-a745-2511b304c8b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../개발,디자인 일정.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../개발,디자인 일정.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../낙서장.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../낙서장.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final2/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final2/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final2/EmployeeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final2/EmployeeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final2/FinallllKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final2/FinallllKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final2/PartTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final2/PartTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final2/Regular.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final2/Regular.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Final2/SalesPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final2/SalesPart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Finallll.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Finallll.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1pls431Yjb8qOUCzVlTbDCCUqq0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Playground" />
+  </component>
+  <component name="RunManager" selected="Application.FinallllKt">
+    <configuration name="AsdadKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Final2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="AsdadKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Finalll2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Final2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Finalll2Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinallllKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Final2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="FinallllKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FinallllKt" />
+        <item itemvalue="Application.Finalll2Kt" />
+        <item itemvalue="Application.AsdadKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63196067-dfcf-4717-a745-2511b304c8b3" name="Default Changelist" comment="" />
+      <created>1615768816914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615768816914</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
