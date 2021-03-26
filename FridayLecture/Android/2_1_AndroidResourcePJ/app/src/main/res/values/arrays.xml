@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pyoinsooInfo">
+    <item>@string/userName</item>
+    <item>@string/userJob</item>
+    <item>@string/userEmail</item>
+  </string-array>
+  <string-array name="size">
+    <item>big</item>
+    <item>middle</item>
+    <item>small</item>
+  </string-array>
+</resources>

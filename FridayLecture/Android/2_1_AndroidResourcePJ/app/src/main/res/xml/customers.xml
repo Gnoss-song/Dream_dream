@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<customers>
+  <customer name="표인수" age="35"    address="서초동"/>
+  <customer name="이나영" age="41" address="송파동" />
+  <customer name="신나라" age="28"   address="반포" />
+</customers>

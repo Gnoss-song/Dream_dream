@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">리소스 관리 예제</string>
+  <string name="hello">안녕! 안드로이드 개발자 여러분!</string>
+  <!--  html을 이용한 스타일 설정(b,i,u 만 지원) "<,>"는 escape 시킴 -->
+  <string name="boldHello">&lt;b&gt;안녕&lt;/b&gt;</string>
+  <!-- 포맷 문자열 사용 방법. -->
+  <string name="simpleFormatString">
+	 실기 점수가  %1$d 점이고, 필기 점수가 %2$d 점 이므로 당신은
+	  %3$s; 입니다.
+  </string>
+  <!-- 서식 문자열에 HTML 태그 사용시 html entity를 escape 시킴. -->
+  <string name="formatStringWithNumbers">
+	 실기 점수가  %1$d 점이고, 필기 점수가 %2$d 점 이므로 당신은
+	  &lt;i&gt;%3$s&lt;/i&gt; 입니다.
+  </string>
+  <!-- 간단한 배열  arrays.xml에서 외부 참조 함 -->
+  <string name="userName">표인수</string>
+  <string name="userJob">안드로이드 개발자</string>
+  <string name="userEmail">insoo.pyo@gmail.com</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="간단한 인텐트 예제"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/intentBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IntentView1"
+        android:textAllCaps="true" />
+    <Button
+        android:text="IntentView2"
+        android:id="@+id/intentBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="IntentView3"
+        android:id="@+id/intentBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="IntentView4"
+        android:id="@+id/intentBtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="IntentView5"
+        android:id="@+id/intentBtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

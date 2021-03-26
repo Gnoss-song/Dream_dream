@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  컨테이너에 각 View를 추가  -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+   
+   <!--  dimen.xml,strings.xml에 선언된 element value 사용 -->
+   <TextView  
+     android:layout_height="wrap_content" 
+     android:layout_width="wrap_content" 
+     android:text="@string/hello"
+     android:textSize="@dimen/textPointSize"
+     android:layout_gravity="top|center"
+     android:layout_margin="15dp"
+     />
+     
+   <!--  태극기를 그리기 위한 ImageView --> 
+   <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:id="@+id/fragsImageView"
+     android:layout_gravity="center"
+     android:layout_margin="15dp">
+   </ImageView>
+   <!-- 
+      /res/drawable/yellow_oval.xml 에 있는
+       도형선언을 활용하여 애니메이션 처리
+    -->
+   <ImageView 
+     android:id="@+id/ovalZoomImage" 
+     android:layout_gravity="center" 
+     android:layout_width="150px" 
+     android:layout_height="150px" 
+     android:src="@drawable/yellow_oval"
+     android:tag=" test"
+     android:layout_margin="15dp">
+   </ImageView>
+   <!--  layout을 분리하여 include을 이용해 결합 -->
+   <include layout="@layout/mygreenrect" />
+</LinearLayout>
