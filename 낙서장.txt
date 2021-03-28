@@ -59,8 +59,8 @@ java xml,interface가 중요. xml!!
 
 
 =================================================
-intent
-fragment
+intent -----o
+fragment---
 액티비티 프래그먼트
 쓰레드
 xml
