@@ -33,7 +33,7 @@
         />
 
     <ImageView
-        android:id="@+id/btn_next2"
+        android:id="@+id/btn_next"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/next"

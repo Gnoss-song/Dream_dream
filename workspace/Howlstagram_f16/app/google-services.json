@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "477187035239",
+    "project_id": "howl-b88ae",
+    "storage_bucket": "howl-b88ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477187035239:android:c67b802d03c92a76d304c2",
+        "android_client_info": {
+          "package_name": "kr.co.softcampus.howlstagram_f16"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477187035239-2b6urauni1lneqt21b12c1972bc10m8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB67nwgmEYzNJPgBXQ1vQqV-D_J8kCHljs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477187035239-2b6urauni1lneqt21b12c1972bc10m8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
