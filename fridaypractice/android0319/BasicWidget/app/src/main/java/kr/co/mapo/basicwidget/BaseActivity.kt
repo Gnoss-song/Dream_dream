@@ -6,10 +6,11 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.ListView
+import kr.co.mapo.basicwidget.databinding.ActivityMainBinding
 import java.util.*
 
 abstract class BaseActivity : ListActivity() {
-
+    private var binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
     private val actions = TreeMap<String,Intent>()
     protected override fun onCreate(savedInstanceState:Bundle?){
         super.onCreate(savedInstanceState)

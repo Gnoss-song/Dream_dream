@@ -6,17 +6,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.practice03.R
-import com.example.practice03.databinding.FragmentUserBinding
+import com.example.practice03.databinding.FragmentDetailViewBinding
 
 class UserFragment : Fragment() {
 
-    private lateinit var binding : FragmentUserBinding
+    private lateinit var binding : FragmentDetailViewBinding
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        binding = FragmentUserBinding.inflate(inflater, container, false)
-        return binding.root
+        inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View? {
+        var view = LayoutInflater.from(activity).inflate(R.layout.fragment_user,container,false)
+        return view
     }
 }

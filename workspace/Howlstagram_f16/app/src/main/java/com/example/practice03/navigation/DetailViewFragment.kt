@@ -13,14 +13,8 @@ class DetailViewFragment : Fragment() {
     private lateinit var binding : FragmentDetailViewBinding
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        binding = FragmentDetailViewBinding.inflate(inflater, container, false)
-        return binding.root
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View? {
+        var view = LayoutInflater.from(activity).inflate(R.layout.fragment_detail,container,false)
+        return view
     }
 }
