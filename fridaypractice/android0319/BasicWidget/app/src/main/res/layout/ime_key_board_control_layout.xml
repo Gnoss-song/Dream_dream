@@ -55,7 +55,7 @@
 			android:textSize="16sp" 
 			/>
          <EditText
-	        android:id="@+id/key_pad_control_edit"
+	        android:id="@+id/key_pad_control_edit2"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:hint="키패드와 액티비티 화면 1"

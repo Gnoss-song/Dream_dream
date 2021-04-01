@@ -1,5 +1,6 @@
 package kr.co.mapo.basicwidget
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.os.Bundle
 import android.util.EventLog
@@ -16,22 +17,21 @@ class EventPriorityActivity:Activity() {
         super.onCreate(bundle)
         setContentView(R.layout.event_handler_layout)
         val priorityHandler = findViewById<ListView>(R.id.btn_prioriry_handler)
-        priorityHandler.setOnTouchListener(
-                object: View.OnTouchListener {
+        priorityHandler.setOnTouchListener { v, event ->
+
             /*
-           * 1번째 이벤트 발생
-                   */
-            override fun onTouch(v:View, event:MotionEvent):Boolean {
-                if (event.getAction() === MotionEvent.ACTION_DOWN)
-                {
-                    Toast.makeText(getApplicationContext(), "버튼 터치 리스너 클래스!",
-                            Toast.LENGTH_SHORT).show()
-                    //true를 리턴하면 여기서 종료 됨
-                    //return true;
-                }
-                return true
+               * 1번째 이벤트 발생
+                       */
+            if (event.action === MotionEvent.ACTION_DOWN) {
+                Toast.makeText(
+                    applicationContext, "버튼 터치 리스너 클래스!",
+                    Toast.LENGTH_SHORT
+                ).show()
+                //true를 리턴하면 여기서 종료 됨
+                //return true;
             }
-        })
+            true
+        }
     }
 }
 }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="kr.co.mapo.basicwidget">
 
     <application
@@ -9,15 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicWidget">
-        <activity android:name=".AndroidSimpleWidget"/>
+<!--        <activity android:name=".AndroidSimpleWidget"/>-->
         <activity android:name=".BaseActivity"/>
         <activity android:name=".EventPriorityActivity"/>
 
 
 
         <activity
-            android:name=".AndroidSimpleWidget"
-            android:label="기본위젯예제">
+            android:label="기본위젯예제"
+            android:name=".AndroidSimpleWidget">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

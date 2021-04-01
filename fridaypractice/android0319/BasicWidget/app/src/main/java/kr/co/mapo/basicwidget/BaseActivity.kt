@@ -8,26 +8,28 @@ import android.widget.ArrayAdapter
 import android.widget.ListView
 import kr.co.mapo.basicwidget.databinding.ActivityMainBinding
 import java.util.*
+import kotlin.collections.AbstractMap
 
 abstract class BaseActivity : ListActivity() {
-    private var binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+    private val binding by lazy {ActivityMainBinding.inflate(layoutInflater)}
     private val actions = TreeMap<String,Intent>()
-    protected override fun onCreate(savedInstanceState:Bundle?){
+
+    override fun onCreate(savedInstanceState:Bundle?){
         super.onCreate(savedInstanceState)
+        setContentView(binding.root)
         displayActivityList()
-        val keys = actions.keySet()
+        val keys = setOf<String>(actions.toString())
         var keyNames = arrayOfNulls<String>(keys.size)
-        keyNames = keys.toTypedArray<String>()
-        listAdapter(ArrayAdapter(this,android.R.layout.simple_list_item_1,keyNames))
+        keyNames = keys.toTypedArray<String?>()
+        listAdapter = ArrayAdapter(this,
+            android.R.layout.simple_list_item_1, keyNames)
     }
     abstract fun displayActivityList()
-    fun addActionMap(keyName:String,className:Class<*>){
-        actions.put(keyName, Intent(this,className))
+    fun addActionMap(keyName:String, className:Class<*>) {
+        actions[keyName] = Intent(this, className)
     }
-    override fun onListItemClick(listView: ListView, item: View, position:Int, id:Long){
+    override fun onListItemClick(listView:ListView, item:View, position:Int, id:Long) {
         val keyName = listView.getItemAtPosition(position) as String
-        startActivity(actions.get(keyName))
+        startActivity(actions[keyName])
     }
-
-    abstract fun addActionMap(keyName: String, className: EventPriorityActivity.Companion)
 }
