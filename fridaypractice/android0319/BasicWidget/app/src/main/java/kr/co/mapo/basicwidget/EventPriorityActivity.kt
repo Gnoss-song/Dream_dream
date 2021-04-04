@@ -9,29 +9,22 @@ import android.view.View
 import android.widget.ListView
 import android.widget.Toast
 import kr.co.mapo.basicwidget.databinding.ActivityMainBinding
+import kr.co.mapo.basicwidget.databinding.EventHandlerLayoutBinding
 
 class EventPriorityActivity:Activity() {
-    companion object{}
-    val binding by lazy { ActivityMainBinding.inflate(layoutInflater)
-    fun onCreate(bundle:Bundle) {
-        super.onCreate(bundle)
-        setContentView(R.layout.event_handler_layout)
+    private val binding by lazy { EventHandlerLayoutBinding.inflate(layoutInflater) }
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(binding.root)
         val priorityHandler = findViewById<ListView>(R.id.btn_prioriry_handler)
-        priorityHandler.setOnTouchListener { v, event ->
-
-            /*
-               * 1번째 이벤트 발생
-                       */
+        priorityHandler.setOnTouchListener { _, event ->
             if (event.action === MotionEvent.ACTION_DOWN) {
                 Toast.makeText(
-                    applicationContext, "버튼 터치 리스너 클래스!",
-                    Toast.LENGTH_SHORT
+                        applicationContext, "버튼 터치 리스너 클래스!",
+                        Toast.LENGTH_SHORT
                 ).show()
-                //true를 리턴하면 여기서 종료 됨
-                //return true;
             }
             true
         }
     }
-}
 }

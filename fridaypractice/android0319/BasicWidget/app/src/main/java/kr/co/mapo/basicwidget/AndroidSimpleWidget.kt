@@ -1,5 +1,6 @@
 package kr.co.mapo.basicwidget
 
+import TextViewDisplay
 import com.pyo.android.simple.widget.AndroidEventListActivity
 
 abstract class AndroidSimpleWidget : BaseActivity() {

@@ -5,18 +5,18 @@ import android.os.Bundle
 import android.view.KeyEvent
 import android.view.MotionEvent
 import android.widget.Toast
+import kr.co.mapo.basicwidget.databinding.ActivityCallbackLayoutBinding
 import kr.co.mapo.basicwidget.databinding.ActivityMainBinding
 
 class ActivityCallbackEventActivity : Activity() {
-    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+    private val binding by lazy { ActivityCallbackLayoutBinding.inflate(layoutInflater) }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
     }
 
     override fun onTouchEvent(event: MotionEvent?): Boolean {
-        return super.onTouchEvent(event)
-        var eventCode: Int = event!!.action
+        val eventCode: Int = event!!.action
         if (eventCode == MotionEvent.ACTION_DOWN) {
             Toast.makeText(
                 applicationContext,

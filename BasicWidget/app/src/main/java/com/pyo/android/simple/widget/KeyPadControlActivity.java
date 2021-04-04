@@ -33,7 +33,7 @@ public class KeyPadControlActivity extends Activity{
 			 public void onClick(View v) {
 				// 키패드 보이기
 				keyPadManager.
-				  showSoftInput(keyPadControl, InputMethodManager.RESULT_UNCHANGED_SHOWN);
+				  showSoftInput(keyPadControl, InputMethodManager.RESULT_UNCHANGED_SHOWN)
 			 }
 	       });
 		   keyPadHide.setOnClickListener(new View.OnClickListener() {

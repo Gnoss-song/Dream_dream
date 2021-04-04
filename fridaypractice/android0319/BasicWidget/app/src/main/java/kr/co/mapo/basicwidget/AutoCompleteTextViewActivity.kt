@@ -11,14 +11,14 @@ import android.widget.Spinner
 import android.widget.Toast
 import kr.co.mapo.basicwidget.R
 import kr.co.mapo.basicwidget.databinding.ActivityMainBinding
+import kr.co.mapo.basicwidget.databinding.AutoCompleteLayoutBinding
 
 class AutoCompleteTextViewActivity:Activity() {
-    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+    private val binding by lazy { AutoCompleteLayoutBinding.inflate(layoutInflater) }
     lateinit var  bloodGroup:Spinner
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-//        bloodGroup = findViewById(R.id.spinner_id)
         val arrayBloodType = resources.getStringArray(R.array.blood_group)
         val spinnerAdapter = ArrayAdapter<String>(
             this,

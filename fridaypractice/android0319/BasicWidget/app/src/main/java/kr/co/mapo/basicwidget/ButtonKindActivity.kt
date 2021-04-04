@@ -9,13 +9,14 @@ import android.widget.ImageButton
 import android.widget.Toast
 import android.widget.ToggleButton
 import kr.co.mapo.basicwidget.databinding.ActivityMainBinding
+import kr.co.mapo.basicwidget.databinding.ButtonKindLayoutBinding
 import kr.co.mapo.basicwidget.ButtonKindActivity as con
 
 class ButtonKindActivity : Activity() {
-    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+    private val binding by lazy { ButtonKindLayoutBinding.inflate(layoutInflater) }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.button_kind_layout)
+        setContentView(binding.root)
         val basicButton: Button = findViewById(R.id.basic_button)
         basicButton.setOnClickListener {
             Toast.makeText(
