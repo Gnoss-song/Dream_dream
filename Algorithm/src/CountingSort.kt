@@ -1,14 +1,32 @@
-fun main(){
-    val ready =
-            mutableListOf<Int>(1,2,1,2,1,1,0,0,1,2
-                              ,1,3,3,1,2,3,1,3,4,2
-                              ,1,2,3,5,4,3,2,3,4,4)
-    val array = IntArray(6)
-    val sortresult = IntArray(6)
+fun main(args:Array<String>){
+    val array= IntArray(100)
+    val counting= IntArray(31)
+    val result = IntArray(100)
 
+    for (i in array.indices){
+        array[i] = (Math.random() * 31).toInt()
+    }
 
-}
+    for(i in array.indices){
+        counting[array[i]]++
+    }
 
+    for(i in 1 until counting.size){
+        counting[i] += counting[i -1]
+    }
+
+    for(i in array.indices.reversed()){
+        val value = array[i]
+        counting[value]--
+        result[counting[value]] = value
+    }
+
+    println("result[]")
+    for (i in result.indices) {
+        if (i % 10 == 0) println()
+        print(result[i].toString() + "\t")
+    }
+    println()
 
 
 }

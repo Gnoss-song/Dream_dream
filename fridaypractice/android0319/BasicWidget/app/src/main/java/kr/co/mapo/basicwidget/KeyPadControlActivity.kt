@@ -16,7 +16,7 @@ abstract class KeyPadControlActivity : Activity() {
     private val binding by lazy { ImeKeyBoardControlLayoutBinding.inflate(layoutInflater) }
     private lateinit var keyPadManager: InputMethodManager
         override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+            super.onCreate(savedInstanceState)
             setContentView(binding.root)
         window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
 

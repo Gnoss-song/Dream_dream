@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="마이페이지"
+            android:textColor="@color/white_93">
+
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <View
+        android:id="@+id/mypageline1"
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="@color/black"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:columnCount="8"
+        app:orientation="horizontal"
+        app:rowCount="2">
+
+        <ImageView
+            android:id="@+id/img_profile"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile"
+            android:text="View1"
+            app:layout_column="0"
+            app:layout_columnSpan="2"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowSpan="2"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/text_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="GNOSS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_column="2"
+            app:layout_columnSpan="2"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="silmxmail@naver.com"
+            app:layout_column="2"
+            app:layout_columnSpan="2"
+            app:layout_rowSpan="1" />
+
+        <ImageView
+            android:id="@+id/img_rank"
+            android:layout_width="40dp"
+            android:layout_height="10dp"
+            android:src="@drawable/rank"
+            android:text="VIEW4"
+            app:layout_column="4"
+            app:layout_columnSpan="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowSpan="2" />
+
+        <TextView
+            android:id="@+id/btn_lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="LV_10"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_columnSpan="1"
+            app:layout_rowSpan="1" />
+
+        <Button
+            android:id="@+id/btn_balloon"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="도움말"
+            app:layout_column="6"
+            app:layout_columnSpan="1"
+            app:layout_row="0"
+            app:layout_rowSpan="1" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그아웃"
+            app:layout_column="5"
+            app:layout_columnSpan="3"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowSpan="1"
+            android:layout_marginRight="15dp"/>
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <View
+        android:id="@+id/mypageline2"
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="@color/black"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/btn_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="찜 목록"
+        android:textAlignment="textStart"
+        android:drawableLeft="@drawable/ic_button"
+        android:drawableRight="@drawable/ic_arrow"
+
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/btn_myreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="마이리뷰"
+        android:textAlignment="textStart"
+        android:drawableLeft="@drawable/ic_button"
+        android:drawableRight="@drawable/ic_arrow"
+
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/btn_myreport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내 제보 글 관리"
+        android:textAlignment="textStart"
+        android:drawableLeft="@drawable/ic_button"
+        android:drawableRight="@drawable/ic_arrow"
+
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/btn_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="공지사항"
+        android:textAlignment="textStart"
+        android:drawableLeft="@drawable/ic_button"
+        android:drawableRight="@drawable/ic_arrow"
+
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/btn_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="건의하기"
+        android:textAlignment="textStart"
+        android:drawableLeft="@drawable/ic_button"
+        android:drawableRight="@drawable/ic_arrow"
+
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/btn_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="앱 버전"
+        android:textAlignment="textStart"
+        android:drawableLeft="@drawable/ic_button"
+        android:drawableRight="@drawable/ic_arrow"
+
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_above="@+id/bottomNavigationView"
+            android:layout_marginBottom="0dp"
+            android:background="#03A9F4"
+            app:layout_constraintTop_toTopOf="parent"
+            android:backgroundTint="@color/black">
+            <Button
+                android:id="@+id/btn_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#8000"
+                android:text="copyright 2021.mapo3.All right reserved\n서비스 정책 및 이용약관 "
+                android:textAlignment="center"
+                android:textColor="@color/white_93"
+                android:textSize="15dp">
+
+            </Button>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_dialog"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="#8000"-->
+<!--            android:text="copyright 2021.mapo3.All right reserved\n서비스 정책 및 이용약관 "-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/white_93"-->
+<!--            android:textSize="15dp">-->
+
+<!--        </Button>-->
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemBackground="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_navigation_menu"
+
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
+

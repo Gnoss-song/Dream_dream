@@ -12,7 +12,7 @@ ex ) 3월 1주차 -
 
 
 ===================================
-
+setvisibility
 레트로핏2
 라이프싸이클
 fragment
@@ -21,6 +21,7 @@ intent
 mvvm
 로그인
 
+constraint layout fragment layout
 ----------------------
 map api, jetpack, 라이브데이터,데이터바인딩,뷰모델,리싸이클러뷰,뷰페이저,퍼미션
 스크롤리스너
