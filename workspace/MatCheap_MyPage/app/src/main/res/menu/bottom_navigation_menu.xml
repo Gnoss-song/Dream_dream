@@ -3,23 +3,31 @@
     <item
         android:id="@+id/page_map"
         android:enabled="true"
-        android:title="지도"/>
+        android:title="지도"
+        android:visible="true"
+
+        />
 
     <item
         android:id="@+id/page_serach"
         android:enabled="true"
-        android:title="검색"/>
+        android:title="검색"
+        android:visible="true"/>
 
     <item
         android:id="@+id/page_main"
         android:enabled="true"
-        android:title="메인"/>
-<!--    <item-->
-<!--        android:id="@+id/page_matcheap"-->
-<!--        android:enabled="true"-->
-<!--        android:title="맛칩평가단"/>-->
-<!--    <item-->
-<!--        android:id="@+id/page_mypage"-->
-<!--        android:enabled="true"-->
-<!--        android:title="마이페이지"/>-->
+        android:title="메인"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/page_matcheap"
+        android:enabled="true"
+        android:title="맛칩평가단"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/page_mypage"
+        android:enabled="true"
+        android:title="마이페이지"/>
 </menu>

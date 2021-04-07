@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MatCheap_MyPage">
+        <activity android:name=".My0104"></activity>
+        <activity android:name=".My0103" />
+        <activity android:name=".My0102" />
+        <activity android:name=".My0105" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,11 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".My0102"></activity>
-        <activity android:name=".My0103"></activity>
-        <activity android:name=".My_01_04"></activity>
-
+        <activity android:name=".My01021" />
+        <activity android:name=".My01031" />
+        <activity android:name=".My01041" />
     </application>
 
 </manifest>

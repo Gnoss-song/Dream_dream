@@ -242,30 +242,21 @@
 
         </androidx.appcompat.widget.Toolbar>
 
-<!--        <Button-->
-<!--            android:id="@+id/btn_dialog"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_gravity="center"-->
-<!--            android:background="#8000"-->
-<!--            android:text="copyright 2021.mapo3.All right reserved\n서비스 정책 및 이용약관 "-->
-<!--            android:textAlignment="center"-->
-<!--            android:textColor="@color/white_93"-->
-<!--            android:textSize="15dp">-->
-
-<!--        </Button>-->
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigationView"
-            android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             app:itemBackground="@android:color/white"
+            android:theme="@style/Widget.BottomNavigationView.TS"
+            app:itemHorizontalTranslationEnabled="true"
+            app:itemTextColor="@color/teal_200"
+            app:labelVisibilityMode="labeled"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:menu="@menu/bottom_navigation_menu"
-
-            />
+            app:menu="@menu/bottom_navigation_menu" />
 
     </RelativeLayout>
 

@@ -2,6 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.MatCheap_MyPage" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
+        <item name="windowNoTitle">true</item>
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -12,5 +13,10 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+    <style name="Widget.BottomNavigationView.TS"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="font">@style/TextAppearance.AppCompat.Large</item>
+
     </style>
 </resources>

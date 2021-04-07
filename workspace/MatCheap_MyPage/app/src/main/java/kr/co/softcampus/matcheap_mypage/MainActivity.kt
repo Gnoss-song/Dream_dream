@@ -15,46 +15,45 @@ class MainActivity : AppCompatActivity() {
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-
         binding.btnDialog.setOnClickListener(View.OnClickListener() {
             val mDialogView = LayoutInflater.from(this).inflate(R.layout.my_dialog,null)
             val mBuilder = AlertDialog.Builder(this).setView(mDialogView).setTitle("서비스정책 및 이용약관")
-
             val mAlertDialog = mBuilder.show()
-
             val okButton = mDialogView.findViewById<Button>(R.id.popup_ok)
             okButton.setOnClickListener{
                 mAlertDialog.dismiss()
+            }
 
-            }
-            fun onBackPressed(){
-                return
-            }
         })
-
-        val secondIntent = Intent(this,My0102::class.java)
-        val thirdIntent = Intent(this,My0103::class.java)
-        val forIntent = Intent(this,My0104::class.java)
-        val fifthIntent = Intent(this,My0105::class.java)
-
         binding.btnFavorite.setOnClickListener{
+            val secondIntent = Intent(this,My0102::class.java)
             startActivity(secondIntent)
-        }
 
+        }
         binding.btnMyreview.setOnClickListener{
+            val thirdIntent = Intent(this,My0103::class.java)
             startActivity(thirdIntent)
-        }
 
+        }
         binding.btnNotice.setOnClickListener{
-            startActivity(forIntent)
+            val fourIntent = Intent(this,My0104::class.java)
+            startActivity(fourIntent)
         }
 
-        binding.btnVersion.setOnClickListener{
-            startActivity(fifthIntent)
-        }
+        binding.btnReport.setOnClickListener {
+            val email = Intent(Intent.ACTION_SEND)
+            email.type = "plain/Text"
+            email.putExtra(Intent.EXTRA_EMAIL, R.string.email)
+            email.putExtra(Intent.EXTRA_SUBJECT, "<" + getString(R.string.app_name) + " " + getString(R.string.report) + ">")
+            email.putExtra(Intent.EXTRA_TEXT, "기기명 (Device):\n안드로이드 OS (Android OS):\n내용 (Content):\n")
+            email.type = "message/rfc822"
+            startActivity(email)
 
-
         }
+        fun onBackPressed(){
+            return
+        }
+    }
 }
 
 
