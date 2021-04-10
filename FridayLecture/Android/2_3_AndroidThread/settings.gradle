@@ -1,0 +1,2 @@
+rootProject.name='2_3_AndroidThread'
+include ':app'

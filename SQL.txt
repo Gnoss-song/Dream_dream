@@ -1,0 +1,257 @@
+SQL마다 문법은 비슷하지만 조금씩 다르다.
+종류가 여러 개 있다.
+
+ORACLE이 독점수준. 
+티베로 - 티맥스 소프트.(국산IT기업)
+mysql등등.. 무료
+
+퍼포먼스와 내장함수들이 다르다.
+
+뒤에 세미콜론(;)
+
+
+순서 : SELECT FROM 테이블 WHERE ORDERBY
+
+
+SELECT * FROM TABLE이름
+
+SELECT DISTINCT --> 중복제거
+
+SELECT * FROM CUSTOMERS ORDER BY CITY ASC;
+
+ORDER BY 기준 DESC 올림차순
+                    ASC  내림차순
+
+INSERT INTO 테이블
+
+
+UPDATE 테이블이름
+SET 바꾸고싶은 컬럼 = '바꾸고싶은 이름' 등등
+WHERE 어떤애를 바꿀건지 CUSTOEMRID = 1
+
+
+DELETE FROM 테이블이름
+WHERE upper(COUNTRY) = 'GERMANY';
+
+
+DROP : 테이블을 날리는것.
+
+
+UPDATE랑 DELETE는 하기전에 
+SELECT로 내가 원하는 타겟이 무엇인지 체크하고,
+WHERE절을 그대로 복사해서 사용한다.
+
+
+
+
+
+SELECT 
+     CustomerName AS 회원이름
+    ,Address AS 주소
+    ,City AS 도시
+    ,Country AS 나라이름
+
+별칭만 바뀌는것 근본적인 것은 안바뀜
+
+
+SELECT 2-1 AS 차
+사칙연산
+
+SELECT CUSTOMERID+100 FROM CUSTOMERS
+
+테이블안의 것들에다가도 사칙연산이 가능하다.
+
+SELECT CUSTOMERID%2 FROM CUSTOMERS
+
+ID가 짝수인지 홀수인지를 찾고싶을때
+
+
+SELECT 
+	 ProductName AS 제품이름
+	,Price AS 기존가격
+    	,PRICE*(0.8) AS 할인가격
+FROM Products;
+
+이런식으로 할인가격을 나타낼수 있다.
+
+
+SELECT 
+     Country
+    ,Address
+    ,City
+    ,COUNTRY || ' ' || CITY || ' ' || ADDRESS AS 주소
+
+FROM Customers;
+
+
+
+ '  ' --> 홑따옴표 는 데이터베이스에서 띄어쓰기.
+
+결과 값이 합쳐진다. 
+
+합쳐지기 ||
+
+대문자 : upper(City)
+소문자 : lower(City)
+
+
+
+--	upper(City) = 'LONDON'
+--	CustomerID>=50
+    CustomerID in (10,20,30,40,50)
+
+WHERE
+	upper(City) = 'LONDON'
+설명 : City는 London은 조회가 안된다.
+        upper(City)를 하게 되면 City를 대문자로 만들어준다.
+
+>=50 50이상인걸 뽑아내기.
+in (10,20,30,40,50) --> 특정값을 뽑아내는 작업.
+
+Where City Like '%s%'
+
+---- Like '%s%' 앞뒤로 s가 들어있는 City를 뽑기.
+-----Like '%s' 뒤에 s가 있는 City
+-----Like 's%' 앞에 s가 있는 City
+
+언더바 ( _ ) : 1자리수만 수용. 하나의 문자열.
+
+
+검색창에서 사용
+
+
+
+WHERE CustomerID in (10,20,30,40,50) AND City Like '%s%'
+
+
+WHERE CustomerID >= 50 AND upper(CITY) = 'PARIS'
+
+
+이건 두가지 조건을 묶을 때 AND 사용.(교집합)
+		          OR 사용. ( 합집합)
+
+
+CustomerID BETWEEN 10 AND 80 : 10~80사이.
+
+
+Is Null = 데이터가 NULL인 것을 출력.
+
+
+같지 않다 라는 표현 : <> 혹은 != 혹은 NOT(upper(CITY) = 'PARIS')
+
+
+
+MY SQL CMD창에서 명령어
+mysql>	SHOW databases;
+	SHOW tables;
+	DESC table_name;
+
+=======================================
+함수
+
+SELECT COUNT(*)
+FROM CUSTOMERS
+WHERE CITY = 'Paris' AND 
+	CUSTOMERID BETWEEN 30 AND 70
+    
+COUNT = 카운팅하기.
+
+
+SELECT SUBSTR('Hello world', 1, 3) AS START
+	1 = 시작점
+	3 = 시작점부터 몇개까지.
+SUNSTR = 골라서 추출하기. 1~3 . Hel
+
+
+SELECT SUBSTR('Hello world',-5) AS START
+//world도 사용. 
+
+SELECT LENGTH('Hello world') AS START
+// 11 문자열 갯수출력.
+
+SELECT REPLACE('Hello world','world','SQL')AS START
+// Hello SQL 대체한다.
+
+=====================================
+SELECT 
+     CustomerName
+    ,LENGTH(CustomerName) AS 길이
+    ,SUBSTR(CustomerName,1,5) AS 앞5자리
+    ,REPLACE(CustomerName,SUBSTR(CustomerName,1,5),'*****') AS 비밀
+    ,upper(CustomerName) AS 대문자
+    ,lower(CustomerName) AS 소문자
+    
+    
+FROM [Customers]
+ORDER BY CUSTOMERID DESC
+
+시험.
+===================================
+
+
+
+
+-----------------------------------------------------------
+SELECT 
+	 Country
+    ,Address
+    ,City
+    ,COUNTRY || ' ' || CITY || ' ' || ADDRESS AS 주소
+    ,upper(City) AS City2
+    ,lower(City) AS City3
+    ,CustomerID
+    
+   
+FROM
+	Customers
+    
+WHERE 
+--	upper(City) = 'LONDON'
+--	CustomerID>=50
+--  CustomerID in (10,20,30,40,50) AND City Like '%s%'
+	CustomerID BETWEEN 10 AND 80
+    
+ORDER BY 
+	CustomerID;
+
+
+-----------------------------------------------------------
+예시문
+
+SELECT 
+	 Country
+    ,Address
+    ,City
+    ,COUNTRY || ' ' || CITY || ' ' || ADDRESS AS 주소
+    ,upper(City) AS City2
+    ,lower(City) AS City3
+   
+FROM
+	Customers
+    
+WHERE 
+	City = 'London'
+
+ORDER BY 
+	주소 ASC
+
+
+-------------------------------------------------------
+문법 작성할 때 표준
+SELECT * 
+    ,CUSTOMERID
+    ,CUSTOMERNAME
+    ,CONTRACTNAME
+    ,ADDRESS
+    
+FROM 
+	CUSTOMERS 
+
+ORDER BY
+	CITY ASC;
+
+주석 처리 
+-- CUSTOMERID
+
+------------------------------------------------------
+

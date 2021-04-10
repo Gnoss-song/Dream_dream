@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/friend_invi"
+            android:icon="@drawable/ic_baseline_add_comment_24"
+            android:title="친구초대하기" />
+        <item
+            android:id="@+id/my_messages"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="메세지" />
+        <item
+            android:id="@+id/my_diary"
+            android:icon="@drawable/ic_baseline_add_ic_call_24"
+            android:title="My 일기" />
+        <item
+            android:id="@+id/reservation_list"
+            android:icon="@drawable/ic_baseline_insert_invitation_24"
+            android:title="예약내역" />
+    </group>
+    <item android:title="기타">
+        <menu>
+
+            <item
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="환경설정" />
+            <item
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="도움말" />
+        </menu>
+    </item>
+</menu>

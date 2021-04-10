@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerViewApp</string>
+    <string name="hero">우리의 슈퍼히어로 트와이스 만세</string>
+</resources>
