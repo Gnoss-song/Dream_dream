@@ -1,0 +1,6 @@
+kr/co/softcampus/customlistview2/BuildConfig.java
+ kr.co.softcampus.customlistview2.BuildConfig
+kr/co/softcampus/customlistview2/databinding/RowBinding.java
+ kr.co.softcampus.customlistview2.databinding.RowBinding
+kr/co/softcampus/customlistview2/databinding/ActivityMainBinding.java
+ kr.co.softcampus.customlistview2.databinding.ActivityMainBinding

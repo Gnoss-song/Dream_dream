@@ -1,0 +1,6 @@
+kr/co/softcampus/startactivity/databinding/ActivityMainBinding.java
+ kr.co.softcampus.startactivity.databinding.ActivityMainBinding
+kr/co/softcampus/startactivity/BuildConfig.java
+ kr.co.softcampus.startactivity.BuildConfig
+kr/co/softcampus/startactivity/databinding/ActivitySecondBinding.java
+ kr.co.softcampus.startactivity.databinding.ActivitySecondBinding

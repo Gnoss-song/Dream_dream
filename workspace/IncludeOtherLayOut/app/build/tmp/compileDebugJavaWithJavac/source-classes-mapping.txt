@@ -1,0 +1,2 @@
+kr/co/softcampus/includeotherlayout/BuildConfig.java
+ kr.co.softcampus.includeotherlayout.BuildConfig

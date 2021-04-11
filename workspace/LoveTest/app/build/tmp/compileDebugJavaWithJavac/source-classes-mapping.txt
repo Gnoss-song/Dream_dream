@@ -1,0 +1,12 @@
+com/example/lovetest/databinding/ActivityMainBinding.java
+ com.example.lovetest.databinding.ActivityMainBinding
+com/example/lovetest/databinding/FragmentMainBinding.java
+ com.example.lovetest.databinding.FragmentMainBinding
+com/example/lovetest/databinding/FragmentQuestionBinding.java
+ com.example.lovetest.databinding.FragmentQuestionBinding
+com/example/lovetest/databinding/FragmentSelectionBinding.java
+ com.example.lovetest.databinding.FragmentSelectionBinding
+com/example/lovetest/BuildConfig.java
+ com.example.lovetest.BuildConfig
+com/example/lovetest/databinding/FragmentResultBinding.java
+ com.example.lovetest.databinding.FragmentResultBinding

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f163610-7352-4676-a12d-be59c917de11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../IDEA.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../IDEA.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/.idea/dictionaries/IS_P.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/KotlinWithOOP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/META-INF/KotlinWithOOP.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_1/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_1/EmployeeKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_2/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_2/EmployeePrimaryConstructorKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_3/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_3/EmployeeInitBlockKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_4/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_4/EmployeeSecondaryConstructorKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_4/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_4/SimpleBackingFieldPersonKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/EmployeePropertyKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/Person$age$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/Person$gender$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/Person$name$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/PersonDelegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/PersonDelegatesObservableKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/PersonKPropertyDelegateKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/PersonKT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/PersonLazyKt$increment$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/PersonLazyKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/PersonObserable$$special$$inlined$observable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_1_5/PersonObserable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_1/BasicInhetanceExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_1/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_1/InheritanceEmployeeKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_1/PartTimeEmp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_1/PermanentEmp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_1/PersonT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_1/Professor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_2/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_2/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_2/KotlinInheritanceConstrcutorKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_2/PartTimeEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_2/PermanentEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_2/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_2/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_2/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_2_2/TypeCastingExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_3_1/C1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_3_1/I1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_3_1/I2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_3_1/I3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_3_1/InterfaceExample1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_3_1/Ref.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/EnumExample1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/EnumExample2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/EnumExample3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/ExtendsDepartment$GENERAL_AFFAIRS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/ExtendsDepartment$MANAGEMENT_SUPPORT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/ExtendsDepartment$RND_LAB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/ExtendsDepartment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/MyDepartment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/SeadedExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/SealedDepartment$GeneralAffairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/SealedDepartment$ManagementSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/SealedDepartment$RndRab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_1/SealedDepartment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/AnalyticsManager$Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/AnalyticsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/Car$NestedAudio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/Car2$InnerAudio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/Car2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/Car3$anonyObj$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/Car3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/Car4$anonyObj$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/Car4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/CompanionObjectExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/DataClassEqualsExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/MusicAvailable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/NestedExample1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/NestedExample2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/ObjectAnonymoutExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/ObjectName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/out/production/KotlinWithOOP/chap_4_2/TypeNamedObjectExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_1_1/Employee.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_1_2/EmployeePrimaryConstructor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_1_3/EmployeeInitBlock.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_1_4/EmployeeSecondaryConstructor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_1_4/SimpleBackingFieldPerson.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_1_5/EmployeeProperty.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_1_5/PersonDelegatesObservable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_1_5/PersonKPropertyDelegate.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_1_5/PersonLazy.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_2_1/BasicInhetanceExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_2_1/InheritanceEmployee.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_2_2/KotlinInheritanceConstrcutor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_2_2/TypeCastingExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_3_1/InterfaceExample1.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_4_1/EnumExample1.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_4_1/EnumExample2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_4_1/EnumExample3.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_4_1/SeadedExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_4_2/CompanionObjectExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_4_2/DataClassEqualsExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_4_2/NestedExample1.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_4_2/NestedExample2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_4_2/ObjectAnonymoutExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/KotlinWithOOP/src/chap_4_2/TypeNamedObjectExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/TAcademy_Kotlin_Beginning _ 72페이지.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/.idea/Tip.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/00_BubbleSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/01_CountingSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/02_2차원배열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/03_달팽이행렬.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/04_비트연산자.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/05_BinarySearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/06_SelectionAlgorithm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/07_BruteForce.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/08_DFS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/09_DFS_Recursive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/10_순열_스왑.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/11_순열_재귀.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/12_순열_비트.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/13_QuickSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/Tip/14_BFS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/Kotlin_Chap_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/ArithmeticExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/BitwiseExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/BooleanCharExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/ByteShortExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/ComparisonEqualExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/FloatPoinngExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/ForLoopExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/IntExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/Kotlin2ArrayExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/KotlinArrayExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/KotlinBreakLabelExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/KotlinExpressionStatementKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/KotlinIfExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/KotlinJoinToStringKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/KotlinStringExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/KotlinVarargExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/LogicalInOperatorExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/LongExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/META-INF/Kotlin_Chap_1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/RangeExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/UnaryExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/ValueDeclareExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/WhenExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/_1_1_KotlinBasicKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/_1_2_KotlinBasicKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/_1_3_KotlinBasicKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/_1_4_KotlinBasicKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/_1_5_GuguDanKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/_1_6_PrimeNumberKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/out/production/Kotlin_Chap_1/_1_7_StarExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/1_1_KotlinBasic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/1_2_KotlinBasic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/1_3_KotlinBasic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/1_4_KotlinBasic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/1_5_GuguDan.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/1_6_PrimeNumber.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/1_7_StarExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/ArithmeticExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/BitwiseExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/BooleanCharExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/ByteShortExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/ComparisonEqualExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/FloatPoinngExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/ForLoopExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/IntExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/Kotlin2ArrayExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/KotlinArrayExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/KotlinBreakLabelExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/KotlinExpressionStatement.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/KotlinIfExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/KotlinJoinToString.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/KotlinStringExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/KotlinVarargExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/LogicalInOperatorExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/LongExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/RangeExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/UnaryExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/ValueDeclareExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/kotlinBook/src/WhenExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/SK-T-Academy/모바일기술동향.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../금요일 수업/TAcademy_Kotlin_표강사_수정본.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../마포구청 개발.디자인 진행 일정 및 내용_20210317_ver1.2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../마포구청 개발.디자인 진행 일정 및 내용_20210317_ver1.2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../숙제.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../숙제.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1puuSd2rIh456t1tLRuou2tACWv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Gnoss-song\workspace\ImageView\app\src\main\res\drawable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="ImageView.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f163610-7352-4676-a12d-be59c917de11" name="Default Changelist" comment="" />
+      <created>1616045296481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616045296481</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1018" y="297" key="chooseDestDirectoryDialog" timestamp="1616045573743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1018" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616045573743" />
+  </component>
+</project>

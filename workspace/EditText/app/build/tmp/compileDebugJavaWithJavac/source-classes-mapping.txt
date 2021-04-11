@@ -1,0 +1,2 @@
+kr/co/softcampus/edittext/BuildConfig.java
+ kr.co.softcampus.edittext.BuildConfig

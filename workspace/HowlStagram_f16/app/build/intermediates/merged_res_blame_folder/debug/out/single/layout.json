@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
+        "source": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\src\\main\\res\\layout\\fragment_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_grid.xml",
+        "source": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\src\\main\\res\\layout\\fragment_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_detail_view.xml",
+        "source": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\src\\main\\res\\layout\\fragment_detail_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_alarm.xml",
+        "source": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\src\\main\\res\\layout\\fragment_alarm.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\user\\Gnoss-song\\workspace\\HowlStagram_f16\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

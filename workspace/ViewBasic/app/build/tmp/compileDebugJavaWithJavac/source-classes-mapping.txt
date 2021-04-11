@@ -1,0 +1,2 @@
+kr/co/softcampus/viewbasic/BuildConfig.java
+ kr.co.softcampus.viewbasic.BuildConfig
