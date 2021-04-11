@@ -18,12 +18,6 @@ i/o작업.
 노션 정리할 것.
 95페이지 null 수신객체 람다. 찾아보기. with none apply .
 
-96페이지 lateinit . 알아두세요. 
-
-데이터바인딩 B2B, 뷰바인딩 내가만든 레이아웃과 레이아웃을 찾아가는 바인딩클래스를 자동생성
-
-97페이지 by lazy
-
 reflection, intent 알아오기.
 memory에있는 속성을 읽는 기능 reflection --> 코틀린에서는 KProperty.
 

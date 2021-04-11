@@ -32,7 +32,6 @@ map api, jetpack, 라이브데이터,데이터바인딩,뷰모델,리싸이클�
 Material Design Basic 실습해보기.
 리싸이클러뷰
 쓰레드
-Factory
 프래그먼트 해보기.
 CardView로 리스트 만들기. 
 화면 만들기.
