@@ -1,4 +1,0 @@
-kr/co/softcampus/listview/databinding/ActivityMainBinding.java
- kr.co.softcampus.listview.databinding.ActivityMainBinding
-kr/co/softcampus/listview/BuildConfig.java
- kr.co.softcampus.listview.BuildConfig

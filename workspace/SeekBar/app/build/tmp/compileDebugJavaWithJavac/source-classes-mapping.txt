@@ -1,4 +1,0 @@
-kr/co/softcampus/seekbar/databinding/ActivityMainBinding.java
- kr.co.softcampus.seekbar.databinding.ActivityMainBinding
-kr/co/softcampus/seekbar/BuildConfig.java
- kr.co.softcampus.seekbar.BuildConfig

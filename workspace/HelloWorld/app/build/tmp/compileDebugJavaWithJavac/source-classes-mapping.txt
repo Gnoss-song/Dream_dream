@@ -1,2 +1,0 @@
-kr/co/softcampus/helloworld/BuildConfig.java
- kr.co.softcampus.helloworld.BuildConfig

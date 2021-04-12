@@ -1,2 +1,0 @@
-kr/co/softcampus/button/BuildConfig.java
- kr.co.softcampus.button.BuildConfig

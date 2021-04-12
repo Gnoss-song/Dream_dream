@@ -1,2 +1,0 @@
-kr/co/softcampus/myapplication123123/BuildConfig.java
- kr.co.softcampus.myapplication123123.BuildConfig

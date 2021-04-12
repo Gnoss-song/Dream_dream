@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Include_Other_LayOut.iml" filepath="$PROJECT_DIR$/.idea/modules/Include_Other_LayOut.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Include_Other_LayOut.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Include_Other_LayOut.app.iml" />
-    </modules>
-  </component>
-</project>

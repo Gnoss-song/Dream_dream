@@ -1,4 +1,0 @@
-kr/co/softcampus/progressbar/BuildConfig.java
- kr.co.softcampus.progressbar.BuildConfig
-kr/co/softcampus/progressbar/databinding/ActivityMainBinding.java
- kr.co.softcampus.progressbar.databinding.ActivityMainBinding

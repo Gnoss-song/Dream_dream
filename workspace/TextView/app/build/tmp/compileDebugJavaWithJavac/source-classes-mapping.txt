@@ -1,2 +1,0 @@
-kr/co/softcampus/textview/BuildConfig.java
- kr.co.softcampus.textview.BuildConfig
