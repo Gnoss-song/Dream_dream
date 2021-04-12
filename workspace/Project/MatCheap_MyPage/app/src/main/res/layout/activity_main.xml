@@ -14,7 +14,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/black">
+        android:background="#b61827">
 
         <TextView
             android:layout_width="wrap_content"
@@ -67,6 +67,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="GNOSS"
+            android:textColor="@color/nickname"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="25dp"
             android:textStyle="bold"
@@ -101,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="LV_10"
-            android:textColor="@color/black"
+            android:textColor="@color/nickname"
             android:textStyle="bold"
             app:layout_columnSpan="1"
             app:layout_rowSpan="1" />
@@ -225,7 +226,8 @@
             android:layout_marginBottom="0dp"
             android:background="#03A9F4"
             app:layout_constraintTop_toTopOf="parent"
-            android:backgroundTint="@color/black">
+            android:backgroundTint="#b61827"
+            >
             <Button
                 android:id="@+id/btn_dialog"
                 android:layout_width="match_parent"
@@ -249,9 +251,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             app:itemBackground="@android:color/white"
-            android:theme="@style/Widget.BottomNavigationView.TS"
+            android:theme="@style/Theme.MatCheap_MyPage"
             app:itemHorizontalTranslationEnabled="true"
-            app:itemTextColor="@color/teal_200"
+            app:itemTextColor="@color/black"
+
             app:labelVisibilityMode="labeled"
 
             app:layout_constraintBottom_toBottomOf="parent"
