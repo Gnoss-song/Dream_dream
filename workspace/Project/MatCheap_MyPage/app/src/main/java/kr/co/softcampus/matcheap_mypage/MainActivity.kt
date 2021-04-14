@@ -4,15 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.RecyclerView
 import kr.co.softcampus.matcheap_mypage.databinding.ActivityMainBinding
-import java.lang.StringBuilder
 
 
 class MainActivity : AppCompatActivity() {
@@ -36,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             //액티비티 이동
         })
         binding.btnFavorite.setOnClickListener {
-            val secondIntent = Intent(this, My0102::class.java)
+            val secondIntent = Intent(this,My0102::class.java)
             startActivity(secondIntent)
 
         }
@@ -56,12 +51,12 @@ class MainActivity : AppCompatActivity() {
             sendEmail.type = "plain/Text"
             sendEmail.putExtra(Intent.EXTRA_EMAIL, "<" + getString(R.string.email) + ">")
             sendEmail.putExtra(
-                Intent.EXTRA_SUBJECT,
-                "<" + getString(R.string.app_name) + " " + getString(R.string.report) + ">"
+                    Intent.EXTRA_SUBJECT,
+                    "<" + getString(R.string.app_name) + " " + getString(R.string.report) + ">"
             )
             sendEmail.putExtra(
-                Intent.EXTRA_TEXT,
-                "기기명 (Device):\n안드로이드 OS (Android OS):\n내용 (Content):\n"
+                    Intent.EXTRA_TEXT,
+                    "기기명 (Device):\n안드로이드 OS (Android OS):\n내용 (Content):\n"
             )
             sendEmail.type = "message/rfc822"
             startActivity(sendEmail)
@@ -70,7 +65,4 @@ class MainActivity : AppCompatActivity() {
             return
         }
     }
-
 }
-
-
