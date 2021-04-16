@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/one"
+            android:icon="@drawable/one"
+            android:title="잔고조회"
+            />
+
+        <item
+            android:id="@+id/two"
+            android:icon="@drawable/two"
+            android:title="상품변경"
+            />
+        <item
+            android:id="@+id/three"
+            android:icon="@drawable/three"
+            android:title="지급신청"
+            />
+        <item
+            android:id="@+id/four"
+            android:icon="@drawable/four"
+            android:title="상품정보"
+            />
+        <item
+            android:id="@+id/five"
+            android:icon="@drawable/five"
+            android:title="정보수정"
+            />
+        <item
+            android:id="@+id/six"
+            android:icon="@drawable/six"
+            android:title="IRP 가입신청"
+            />
+
+    </group>
+</menu>
