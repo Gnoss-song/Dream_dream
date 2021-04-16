@@ -12,48 +12,57 @@ import kr.co.softcampus.matcheap_mypage.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+
+
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        //서비스 정책 설정
         binding.btnDialog.setOnClickListener(View.OnClickListener() {
-            val mDialogView = LayoutInflater.from(this).inflate(R.layout.my_dialog,null)
+            val mDialogView = LayoutInflater.from(this).inflate(R.layout.my_dialog, null)
             val mBuilder = AlertDialog.Builder(this).setView(mDialogView).setTitle("서비스정책 및 이용약관")
             val mAlertDialog = mBuilder.show()
             val okButton = mDialogView.findViewById<Button>(R.id.popup_ok)
-            okButton.setOnClickListener{
+            okButton.setOnClickListener {
                 mAlertDialog.dismiss()
             }
 
+            //액티비티 이동
         })
-        binding.btnFavorite.setOnClickListener{
+        binding.btnFavorite.setOnClickListener {
             val secondIntent = Intent(this,My0102::class.java)
             startActivity(secondIntent)
 
         }
-        binding.btnMyreview.setOnClickListener{
-            val thirdIntent = Intent(this,My0103::class.java)
+        binding.btnMyreview.setOnClickListener {
+            val thirdIntent = Intent(this, My0103::class.java)
             startActivity(thirdIntent)
 
         }
-        binding.btnNotice.setOnClickListener{
-            val fourIntent = Intent(this,My0104::class.java)
+        binding.btnNotice.setOnClickListener {
+            val fourIntent = Intent(this, My0104::class.java)
             startActivity(fourIntent)
         }
 
+        //건의사항 이메일 보내기
         binding.btnReport.setOnClickListener {
-            val email = Intent(Intent.ACTION_SEND)
-            email.type = "plain/Text"
-            email.putExtra(Intent.EXTRA_EMAIL, R.string.email)
-            email.putExtra(Intent.EXTRA_SUBJECT, "<" + getString(R.string.app_name) + " " + getString(R.string.report) + ">")
-            email.putExtra(Intent.EXTRA_TEXT, "기기명 (Device):\n안드로이드 OS (Android OS):\n내용 (Content):\n")
-            email.type = "message/rfc822"
-            startActivity(email)
-
+            val sendEmail = Intent(Intent.ACTION_SEND)
+            sendEmail.type = "plain/Text"
+            sendEmail.putExtra(Intent.EXTRA_EMAIL, "<" + getString(R.string.email) + ">")
+            sendEmail.putExtra(
+                    Intent.EXTRA_SUBJECT,
+                    "<" + getString(R.string.app_name) + " " + getString(R.string.report) + ">"
+            )
+            sendEmail.putExtra(
+                    Intent.EXTRA_TEXT,
+                    "기기명 (Device):\n안드로이드 OS (Android OS):\n내용 (Content):\n"
+            )
+            sendEmail.type = "message/rfc822"
+            startActivity(sendEmail)
         }
-        fun onBackPressed(){
+        fun onBackPressed() {
             return
         }
     }
 }
-
-

@@ -25,6 +25,5 @@
         android:layout_centerInParent="true"
         android:layout_marginHorizontal="@dimen/normal_margin"
         android:layout_marginTop="@dimen/top_margin"
-        android:transtionName="hero"
-        />
+        android:transitionName="hero" />
 </RelativeLayout>

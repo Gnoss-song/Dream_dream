@@ -26,9 +26,9 @@ class MainActivity : AppCompatActivity() {
         val adapter1 = RecyclerAdapter()
         binding.recycler1.adapter = adapter1
 
-        //binding.recycler1.layoutManager = LinearLayoutManager(this)
+        binding.recycler1.layoutManager = LinearLayoutManager(this)
         //binding.recycler1.layoutManager = GridLayoutManager(this,2)
-        binding.recycler1.layoutManager = StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL)
+//        binding.recycler1.layoutManager = StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL)
         //binding.recycler1.layoutManager= StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.HORIZONTAL)
 
     }

@@ -29,5 +29,6 @@
     <item
         android:id="@+id/page_mypage"
         android:enabled="true"
-        android:title="마이페이지"/>
+        android:title="마이페이지"
+        android:visible="true"/>
 </menu>
