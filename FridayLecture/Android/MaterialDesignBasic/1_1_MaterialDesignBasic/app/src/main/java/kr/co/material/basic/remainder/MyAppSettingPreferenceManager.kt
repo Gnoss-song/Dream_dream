@@ -37,7 +37,7 @@ class MyAppSettingPreferenceManager {
         set(autoLogin) {
             with(spEditor){
                 putBoolean(AUTO_LOGIN, autoLogin)
-                commit()
+                apply()
             }
         }
     var isPushNotice: Boolean
@@ -45,7 +45,7 @@ class MyAppSettingPreferenceManager {
         set(pushNotice) {
             with(spEditor){
                 putBoolean(PUSH_NOTICE, pushNotice)
-                commit()
+                apply()
             }
         }
     var volume: Int
@@ -53,14 +53,14 @@ class MyAppSettingPreferenceManager {
         set(progress) {
             with(spEditor){
                 putInt(VOLUME, progress)
-                commit()
+                apply()
             }
         }
     var rank: String = sp.getString(RANK, "이사").toString()
         set(rank) {
             with(spEditor){
                 putString(RANK, rank)
-                commit()
+                apply()
             }
         }
 }
