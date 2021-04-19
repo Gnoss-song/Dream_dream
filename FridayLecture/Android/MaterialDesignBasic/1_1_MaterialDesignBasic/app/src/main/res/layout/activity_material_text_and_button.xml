@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@android:color/white">
+    android:background="@android:color/white"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -72,14 +73,14 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/loginBtn"
-                style="@style/Widget.MaterialComponents.Button"
+                style="@style/MapoOutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:text="@string/button_login" />
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/cancelBtn"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
+                style="@style/MapoOutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="12dp"
