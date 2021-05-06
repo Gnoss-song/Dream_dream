@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class MovieAdapter(
-    val list : ArrayList<MovieResponse.BoxOfficeResult.DailyBoxOffice>
+    private val list : List<MovieResponse.BoxOfficeResult.DailyBoxOffice>
     ) : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
@@ -23,9 +23,9 @@ class MovieAdapter(
 
     inner class MovieViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        val rank = itemView.findViewById<TextView>(R.id.rank)
-        val movieNM = itemView.findViewById<TextView>(R.id.movieNM)
-        val openDt = itemView.findViewById<TextView>(R.id.openDt)
+        private val rank = itemView.findViewById<TextView>(R.id.rank)
+        private val movieNM = itemView.findViewById<TextView>(R.id.movieNM)
+        private val openDt = itemView.findViewById<TextView>(R.id.openDt)
 
         fun setItem(item : MovieResponse.BoxOfficeResult.DailyBoxOffice) {
             rank.text = item.rank

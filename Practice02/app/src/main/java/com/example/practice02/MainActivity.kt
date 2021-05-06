@@ -2,7 +2,9 @@ package com.example.practice02
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
+import androidx.core.view.get
 import com.example.practice02.databinding.ActivityMainBinding
 import retrofit2.Call
 import retrofit2.Callback
@@ -21,13 +23,17 @@ class MainActivity : AppCompatActivity() {
             override fun onFailure(call: Call<MovieResponse>, t: Throwable) {
                 Toast.makeText(applicationContext, "서버요청 오류", Toast.LENGTH_SHORT).show()
             }
-
             override fun onResponse(call: Call<MovieResponse>, response: Response<MovieResponse>) {
-                val adapter = MovieAdapter(response.body()!!.boxOfficeResult.dailyBoxOfficeList as ArrayList<MovieResponse.BoxOfficeResult.DailyBoxOffice>)
-                binding.recyclerView.adapter = adapter
+                val list = response.body()!!.boxOfficeResult.dailyBoxOfficeList
+                runOnUiThread {
+                    val adapter = MovieAdapter2(list)
+                    binding.recyclerView.adapter = adapter
+                }
             }
 
         })
+
+        binding.bottomNavigationView.selectedItemId = R.id.menu2
 
     }
 }
