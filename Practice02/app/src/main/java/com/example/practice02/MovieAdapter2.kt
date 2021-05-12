@@ -27,6 +27,7 @@ class MovieAdapter2(
         fun setBind(item : MovieResponse.BoxOfficeResult.DailyBoxOffice) {
             with(binding) {
                 movie = item
+                main = MainActivity()
                 executePendingBindings()
             }
         }

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/basic_margin"
+    android:padding="@dimen/basic_padding"
+    tools:context=".activity.PublicMaskStatusActivity">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        tools:text="봉평약국"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:textSize="14sp"
+        tools:text="서울특별시 강남구 봉은사로 495길 45" />
+    <TextView
+        android:id="@+id/remainStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="300개 이상" />
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/basic_padding"
+        android:layout_below="@id/remainStatus"
+        android:textColor="@color/colorPrimaryDark"
+        android:focusable="true"
+        android:clickable="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="지도위치"
+        />
+</RelativeLayout>

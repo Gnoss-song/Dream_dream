@@ -8,6 +8,10 @@
         <variable
             name="movie"
             type="com.example.practice02.MovieResponse.BoxOfficeResult.DailyBoxOffice" />
+
+        <variable
+            name="main"
+            type="com.example.practice02.MainActivity" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -40,7 +44,7 @@
                     android:gravity="center"
                     android:textColor="#FFFFFF"
                     android:textSize="24sp"
-                    android:text="@{movie.rank}"
+                    android:text="@{main.sunmi}"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -70,6 +74,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
                         android:textSize="12sp"
+                        android:onClick="@{main.test}"
                         tools:text="@{movie.openDt}" />
                 </LinearLayout>
 

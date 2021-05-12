@@ -14,7 +14,7 @@ private const val TARGET_URL = "http://www.kobis.or.kr/kobisopenapi/webservice/r
 
 interface MovieRetrofit {
 
-    @GET("searchDailyBoxOfficeList.json?key=f18a699fff048166f68223bead920212")
+    @GET("searchDailyBoxOfficeList.json?key=dc28abb0518005f042e54d0774a164dc")
     fun getBoxOffice (
         @Query("targetDt") targetDt : String
     ) : Call<MovieResponse>
