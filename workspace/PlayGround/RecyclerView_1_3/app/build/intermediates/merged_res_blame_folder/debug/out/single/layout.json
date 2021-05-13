@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\user15\\Gnoss-song\\PlayGround\\RecyclerView_1_3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_right.xml",
+        "source": "C:\\Users\\user15\\Gnoss-song\\PlayGround\\RecyclerView_1_3\\app\\src\\main\\res\\layout\\view_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\user15\\Gnoss-song\\PlayGround\\RecyclerView_1_3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_left.xml",
+        "source": "C:\\Users\\user15\\Gnoss-song\\PlayGround\\RecyclerView_1_3\\app\\src\\main\\res\\layout\\view_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\user15\\Gnoss-song\\PlayGround\\RecyclerView_1_3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_center.xml",
+        "source": "C:\\Users\\user15\\Gnoss-song\\PlayGround\\RecyclerView_1_3\\app\\src\\main\\res\\layout\\view_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\user15\\Gnoss-song\\PlayGround\\RecyclerView_1_3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\user15\\Gnoss-song\\PlayGround\\RecyclerView_1_3\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

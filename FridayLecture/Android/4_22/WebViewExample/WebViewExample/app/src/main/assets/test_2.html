@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>WebView JavaScript</title>
+    <script language="javascript">
+
+function sendToAndroid()
+{
+  var inputMessage =document.getElementById('inputMessage').value;
+  clientObject.showAndroidDialog(inputMessage);
+}
+
+
+    </script>
+</head>
+<body>
+
+<center>
+    <h2>WebView JavaScript To Android</h2>
+    <input id="inputMessage" type="text"/>
+    <br>
+    <br>
+    <button onclick="sendToAndroid()">Go Android</button>
+</center>
+</body>
+</html>

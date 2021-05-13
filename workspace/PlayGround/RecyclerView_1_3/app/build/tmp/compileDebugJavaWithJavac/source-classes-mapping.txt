@@ -1,0 +1,10 @@
+com/basic/recyclerview_1_3/databinding/ViewLeftBinding.java
+ com.basic.recyclerview_1_3.databinding.ViewLeftBinding
+com/basic/recyclerview_1_3/databinding/ViewRightBinding.java
+ com.basic.recyclerview_1_3.databinding.ViewRightBinding
+com/basic/recyclerview_1_3/databinding/ViewCenterBinding.java
+ com.basic.recyclerview_1_3.databinding.ViewCenterBinding
+com/basic/recyclerview_1_3/databinding/ActivityMainBinding.java
+ com.basic.recyclerview_1_3.databinding.ActivityMainBinding
+com/basic/recyclerview_1_3/BuildConfig.java
+ com.basic.recyclerview_1_3.BuildConfig

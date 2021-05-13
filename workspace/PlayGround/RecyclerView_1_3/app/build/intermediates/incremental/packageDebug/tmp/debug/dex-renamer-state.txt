@@ -1,0 +1,7 @@
+#Fri Apr 09 15:45:13 KST 2021
+base.0=C\:\\Users\\user15\\Gnoss-song\\PlayGround\\RecyclerView_1_3\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\user15\\Gnoss-song\\PlayGround\\RecyclerView_1_3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
