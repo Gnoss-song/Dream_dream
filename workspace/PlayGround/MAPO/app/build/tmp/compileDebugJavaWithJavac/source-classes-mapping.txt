@@ -1,0 +1,12 @@
+com/example/mapo/databinding/NavigationHeaderBinding.java
+ com.example.mapo.databinding.NavigationHeaderBinding
+com/example/mapo/databinding/BottomFragmentBinding.java
+ com.example.mapo.databinding.BottomFragmentBinding
+com/example/mapo/databinding/ActivityNavigationViewDrawerBinding.java
+ com.example.mapo.databinding.ActivityNavigationViewDrawerBinding
+com/example/mapo/databinding/ActivityTabLayoutBasicBinding.java
+ com.example.mapo.databinding.ActivityTabLayoutBasicBinding
+com/example/mapo/BuildConfig.java
+ com.example.mapo.BuildConfig
+com/example/mapo/databinding/ActivityMainBinding.java
+ com.example.mapo.databinding.ActivityMainBinding

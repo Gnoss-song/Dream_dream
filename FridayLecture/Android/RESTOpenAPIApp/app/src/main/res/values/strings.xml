@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">공공데이터활용</string>
+    <string name="city_name">찾을 도시를 선택하세요</string>
+    <string name="congestion">현재 혼잡도</string>
+    <string name="very_good">아주좋음</string>
+    <string name="crowded_side">붐비는편</string>
+    <string name="very_complex">아주복잡</string>
+    <string name="current_beach_status">현재 전국 해수욕장 혼잡도</string>
+</resources>

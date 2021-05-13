@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\user15\\Gnoss-song\\workspace\\PlayGround\\MAPO\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bottom_fragment.xml",
+        "source": "C:\\Users\\user15\\Gnoss-song\\workspace\\PlayGround\\MAPO\\app\\src\\main\\res\\layout\\bottom_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\user15\\Gnoss-song\\workspace\\PlayGround\\MAPO\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_navigation_view_drawer.xml",
+        "source": "C:\\Users\\user15\\Gnoss-song\\workspace\\PlayGround\\MAPO\\app\\src\\main\\res\\layout\\activity_navigation_view_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\user15\\Gnoss-song\\workspace\\PlayGround\\MAPO\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\user15\\Gnoss-song\\workspace\\PlayGround\\MAPO\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user15\\Gnoss-song\\workspace\\PlayGround\\MAPO\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\navigation_header.xml",
+        "source": "C:\\Users\\user15\\Gnoss-song\\workspace\\PlayGround\\MAPO\\app\\src\\main\\res\\layout\\navigation_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\user15\\Gnoss-song\\workspace\\PlayGround\\MAPO\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tab_layout_basic.xml",
+        "source": "C:\\Users\\user15\\Gnoss-song\\workspace\\PlayGround\\MAPO\\app\\src\\main\\res\\layout\\activity_tab_layout_basic.xml"
+    }
+]

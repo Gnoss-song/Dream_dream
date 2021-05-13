@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city">
+        <item>서울특별시 강남구</item>
+        <item>서울특별시 서초구</item>
+        <item>서울특별시 송파구</item>
+        <item>서울특별시 동작구</item>
+        <item>서울특별시 영등포구</item>
+        <item>서울특별시 종로구</item>
+        <item>서울특별시 도봉구</item>
+        <item>서울특별시 성북구</item>
+    </string-array>
+</resources>
