@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "442620617500",
+    "project_id": "tstagram-7f0d0",
+    "storage_bucket": "tstagram-7f0d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442620617500:android:4ce1a3a72eb47380b5d0d9",
+        "android_client_info": {
+          "package_name": "kr.co.ssong.howlstagram_f16"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442620617500-avnjqaje76j50g041glc4n366ei488it.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDwypr5z7UNC9TF87GugUVXjcoiGCdce0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442620617500-avnjqaje76j50g041glc4n366ei488it.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
