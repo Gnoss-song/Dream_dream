@@ -8,8 +8,10 @@ import kr.co.pickup.Detail.DetailFragment
 import kr.co.pickup.Map.MapFragment
 import kr.co.pickup.Mypage.MypageFragment
 import kr.co.pickup.R
+import kr.co.pickup.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
