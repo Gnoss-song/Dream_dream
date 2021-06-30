@@ -5,26 +5,12 @@
       <config />
     </shared>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="27653973-7e2e-418d-a84e-d507e4415586" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../FridayLecture/Android/MaterialDesignBasic/1_1_MaterialDesignBasic/app/src/main/java/kr/co/material/basic/remainder/MyAppSettingPreferenceManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FridayLecture/Android/MaterialDesignBasic/1_1_MaterialDesignBasic/app/src/main/java/kr/co/material/basic/remainder/MyAppSettingPreferenceManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FridayLecture/Android/안드로이드_고급위젯_.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FridayLecture/Android/안드로이드_고급위젯_.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/check.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/community.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/excuseme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/gnoss.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/help.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/libfts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/rank.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/story.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/study" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project/MatCheap_MyPage/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/MatCheap_MyPage/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../숙제.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../숙제.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +44,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../mapo_3/Project_SeoulMatCheap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practice05" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="DialogPractice.app" />
@@ -77,6 +61,7 @@
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -122,11 +107,10 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -145,9 +129,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618557489754" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1618721405863">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1625029826513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618721405863" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625029826513" />
   </component>
 </project>

@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val recyclerView =findViewById<RecyclerView>(R.id.recyclerview)
+        val a = 0
 
 
         // GET방식 //
